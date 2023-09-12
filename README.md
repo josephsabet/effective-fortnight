@@ -1,2 +1,3 @@
-# effective-fortnight
+# MY-PROJECTS
+
 my-projects
