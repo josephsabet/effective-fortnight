@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Poppins:wght@500;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <script src="https://kit.fontawesome.com/50d8c19a3b.js"
+            crossorigin="anonymous"></script> -->
+            <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/fontawesome.css">
+            <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/brands.css">
+            <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/solid.css">
+        <title>Book Store</title>
+    </head>
+<body>
+    <header class="headerSidebar">
+        <div class="companyName">Company name</div>
+        <div><input type="search" class="inputSearch" name="" id="" placeholder="Search"></div>
+        <div>
+<a href="">Sign out</a>
+        </div>
+    </header> 
+    
+    
+    <main>
+		<div class="sidebar">
+			<a href="./dashboard.html">Dashboard</a>
+            <a href="./categories.html">Categories</a>
+            <a href="">Authors</a>
+            <a href="./books.html">Books</a>
+            <a href="">Users</a>
+		</div>
+		<div class="content">
+			<div class="add-cate">
+                <h1>Update Book</h1>
+            <a href="./books.html" >All Books</a>
+            </div>
+            <hr class="underLineDash">
+		</div>
+
+        <form action="" method="get" class="editNewBook">
+            <label for="title">Title</label>
+            <input id="title" type="text" placeholder="Title"> 
+            <label for="file">Image</label>
+            <input id="file"type="file" accept="image/png, image/jpeg" >
+            <label for="price">Price</label>
+            <input type="number" name="" id="price">
+            <label for="shortdesc">Short Description</label>
+            <textarea name="" id="shortdesc" cols="30" rows="3"></textarea>
+            <label for="fulldesc">Full Description</label>
+            <textarea name="" id="fulldesc" cols="30" rows="8"></textarea>
+            <label for="author">Author</label>
+            <input  list="author" name="author" id="author" placeholder="--SELECT--">
+            <datalist id="author">
+              <option value="yousef">
+              <option value="abood">
+              <option value="sama">
+              <option value="yaser">
+              <option value="Sofia">
+            </datalist>
+            <label for="author">cate</label>
+            <input  list="author" name="author" id="author" placeholder="--SELECT--">
+            <datalist id="author">
+              <option value="yousef">
+              <option value="abood">
+              <option value="sama">
+              <option value="yaser">
+              <option value="Sofia">
+            </datalist>
+            <button>Update</button>
+
+        </form>
+        
+       
+	</main> 
+
+
+</body>
+</html>
