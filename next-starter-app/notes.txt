@@ -1,0 +1,4 @@
+http://localhost:3000/ => index.js
+http://localhost:3000/profile => profile.js
+http://localhost:3000/settings => settings/index.js
+http://localhost:3000/settings/notifications => settings/notifications.js
