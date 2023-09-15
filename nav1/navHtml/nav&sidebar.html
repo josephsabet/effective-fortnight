@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+
+    /* reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* header styles */
+header {
+	background-color: #333;
+	color: #fff;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-right: 1rem;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* main styles */
+main {
+	display: flex;
+}
+
+.sidebar {
+	background-color: #f2f2f2;
+	min-width: 250px;
+	height: 100vh;
+	/* position: fixed; */
+	left: 0;
+	top: 0;
+	padding: 1rem;
+}
+
+.content {
+	padding: 1rem;
+	margin-left: 250px;
+}
+
+   </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="sidebar">
+			<h2>Sidebar</h2>
+			<p>Content goes here.</p>
+		</div>
+		<div class="content">
+			<h1>Main Content</h1>
+			<p>Content goes here.</p>
+		</div>
+	</main> 
+</body>
+</html>
