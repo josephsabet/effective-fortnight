@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yousef ElDammagh</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <ul>
+        <li><a href="personal.html">Personal Information</a></li>
+        <li><a href="courses.html">Courses Information</a></li>
+        <li><a href="experience.html">Experience Infotmation</a></li>
+        <li><a href="add-course.html" class="active">Add Course</a></li>
+        <li><a href="add-experience.html">Add Experience</a></li>
+      </ul>
+      <img src="../Images/logoFirst.png" alt="azhar logo" />
+    </header>
+    <div class="photograph1">
+      <img
+        src="../Images/course.jpg"
+        alt="Erorr"
+        width="500"
+        height="600"
+        align="right"
+      />
+    </div>
+    <form>
+      <div class="table4">
+        <table class="table2">
+          <tr class="tr2">
+            <td>
+              <p><label>Course Name:</label></p>
+            </td>
+            <td>
+              <p><input type="text" name="CourseName" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>Number of Hours:</p></td>
+            <td>
+              <p><input type="number" name="NumberofHours" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>Start Date:</p></td>
+            <td>
+              <p><input type="date" name="StartDate" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>End Date:</p></td>
+            <td>
+              <p><input name="EndDate" type="date" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>Institution:</p></td>
+            <td>
+              <p><input type="text" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>Attachment:</p></td>
+            <td>
+              <p>
+                <input type="radio" name="URl" value="URl" />
+                <label>URl</label>
+                <input type="radio" name="File" value="File" />
+                <label>File</label>
+              </p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>File:</p></td>
+            <td>
+              <p><input type="url" name="url" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>File:</p></td>
+            <td>
+              <p><input type="file" name="file" /></p>
+            </td>
+          </tr>
+          <tr class="tr2" align="top">
+            <td align="top"><p>Notes:</p></td>
+            <td>
+              <p><textarea cols="25" rows="4" name="Notes"></textarea></p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <button id="button1" type="submit">Save</button>
+      <button id="button2" type="reset">reset</button>
+    </form>
+  </body>
+</html>

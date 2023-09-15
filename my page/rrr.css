@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* section{
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+ */
+
+.par{
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    grid-template-columns: 3fr 9fr ;
+  background-color: aqua;
+  
+}
+.par div{
+    background-color: blue;
+    text-align: center;
+}

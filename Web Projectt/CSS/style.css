@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "tahoma";
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px;
+  background-color:#00BAFF
+}
+
+#header ul {
+  display: flex;
+  gap: 40px; /* Margins between links */
+  list-style: none; /* remove Bullets */
+  margin-left: 13px;
+}
+
+#header .active {
+  color: white; /* Change active link color (Make it visited) */
+}
+
+#header img {
+  width: 45px; /* width of image */
+}
+
+#header a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "comic sans ms";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.sec-name {
+  padding: 20px;
+  font-family: "Unispace";
+}
+
+.container .info > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 15px 0;
+  font-family: "tahoma";
+}
+
+.container .info > div .bold {
+  font-weight: 600;
+}
+
+.author-img {
+  width: 450px;
+}
+
+/* Courses Information Section */
+
+.courses {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  font-family: "tahoma";
+}
+
+.courses th {
+  padding: 10px;
+  text-align: center;
+}
+
+.courses .first {
+  width: 50px;
+}
+
+/* Exp Sec */
+
+.container3 {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.header-exp {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-bold {
+  font-weight: 700;
+  padding: 15px 0;
+  font-size: 15px;
+}
+
+.content {
+  padding: 15px 0;
+  font-size: 17px;
+  width: 800px;
+}
+
+.table2 {
+  margin: 20px;
+  padding-left: 80px;
+}
+
+input,
+textarea,
+#button1,
+#button2 {
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 20px;
+}
+
+#button1 {
+  background-color: #198754;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 100px;
+  color: white;
+}
+
+#button2 {
+  background-color: red;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 100px;
+  color: white;
+}
+.photograph1 {
+  padding-right: 80px;
+  margin-right: 80px;
+  padding-top: 40px;
+}
+.table4 {
+  margin: -20px;
+}
+
+.table4 td {
+  padding: 10px;
+}
+
+select {
+  border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather:wght@900&family=Open+Sans:wght@300;400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Fjalla-One-family: 'Fjalla One', sans-serif;
+    --Merriweather-family: 'Merriweather', serif;
+    --Open-Sans-family: 'Open Sans', sans-serif;
+    --Roboto-Serif-family: 'Roboto Serif', serif;
+    --Ubuntu-family: 'Ubuntu', sans-serif;
+}
+header .header-main{
+width: 100%;
+height: 70px;
+background-color: #238018;
+}
+header .header1{
+width: 100%;
+height: 74px;
+background-color: #aeaeae;
+}
+.sec1{
+    width: 100%;
+    height: 823px;
+    background-color: #26223f;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+}
+.sec1 .basic{
+    position: absolute;
+    top: 75px;
+    width: 85%;
+    height: 80%;
+    background-image: linear-gradient(#5c5f8a,#26223f);
+    display: flex;
+    flex-direction: row;
+    
+}
+.sec1 .basic .box1{
+    width: calc(100%2);
+    height: 600px;
+    /* background-color: #238018; */
+}
+.sec1 .basic .box2{
+    width: calc(100%2);
+    height: 600px;
+    /* background-color: #771880; */
+}
+.sec1 .basic .box1 img{
+    width: 503px;
+    height: 577px;
+    object-fit: cover;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.box2 article{
+    margin: 100px;
+    /* another solution */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.box2 article h1{
+    color: white;
+    width: 50%;
+    font-size: 72px;
+    font-family: var(--Fjalla-One-family);
+    
+}
+.box2 article p{
+    color: white;
+    width: 80%;
+font-size: 20px;
+font-weight: 1000;
+font-family: var(--Open-Sans-family);
+margin-top: 80px;
+}
+.box2 article button{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border:2px solid white ;
+    margin-top: 50px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yousef ElDammagh</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <ul>
+        <li><a href="personal.html">Personal Information</a></li>
+        <li><a href="courses.html">Courses Information</a></li>
+        <li><a href="experience.html">Experience Infotmation</a></li>
+        <li><a href="add-course.html">Add Course</a></li>
+        <li><a href="add-experience.html" class="active">Add Experience</a></li>
+      </ul>
+      <img src="../Images/logoFirst.png" alt="azhar logo" />
+    </header>
+    <div class="photograph1">
+      <img src="../Images/experience.jpg" alt="Erorr" width="400" align="right" />
+    </div>
+    <form>
+      <div class="table4">
+        <table class="table2">
+          <tr class="tr2">
+            <td>
+              <p><label>Experiences Category</label></p>
+            </td>
+            <td>
+              <p>
+                <select name="Experiences Category">
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value="Experiences Category">
+                    Experiences Category
+                  </option>
+                </select>
+              </p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>Experiences Title</p></td>
+            <td>
+              <p><input type="text" name="ExperiencesTitle" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>Start Month</p></td>
+            <td>
+              <p><input type="month" name="StartMonth" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>End Month</p></td>
+            <td>
+              <p><input type="month" value="EndMonth" /></p>
+            </td>
+          </tr>
+          <tr class="tr2">
+            <td><p>Institution</p></td>
+            <td>
+              <p><input type="text" /></p>
+            </td>
+          </tr>
+          <tr class="tr2" align="top">
+            <td align="top"><p>Description</p></td>
+            <td>
+              <p><textarea cols="50" rows="6"></textarea></p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <button id="button1" type="submit">Save</button>
+      <button id="button2" type="reset">reset</button>
+    </form>
+  </body>
+</html>
